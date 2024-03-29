@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    min-width: 415px;
+    width: auto !important;
+}
+
+.main {
+    background-image: url('../resources/girl.jpg');
+    width: 100%;
+    width: 100vw;
+    height: 100vh; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 40vh;
+}
+
+.page-title {
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 5em;
+}
+
+.page-subtitle {
+    text-align: center;
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 3em;
+}
+
+.campfire-animation {
+    width: 170px;
+    height: 150px;
+}
+
+.course-info-container, .contact, 
+.aboutus, .contact-box, .our-crew-info, 
+.review-section-box, .location-info {
+    width: 100vw;
+    height: fit-content;
+    min-height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.course-info-container {
+    padding: 5vh 10vw 3vh 10vw;
+    background-color: #eeebeb;
+}
+
+.course-info {
+    display: flex;
+    height: fit-content;
+    min-height: 200px;
+    margin-bottom: 30px;
+}
+
+.course-list {
+    margin-top: 50px;
+}
+
+.date-box, .title-box {
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+    box-shadow: #bcbcbc 0 1px;
+}
+
+.date-box {
+    width: 20%;
+    margin-right: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-date {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.title-box {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.course-title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.place-info {
+    font-size: 1.8em;
+    margin-bottom: 6px;
+}
+
+.course-links {
+    margin-top: auto;
+}
+
+.course-link {
+    text-decoration: underline;
+    color: #c75b5b;
+    font-weight: 600;
+    margin-right: 2vw;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 3em;
+}
+
+.contact {
+    background-color: #4a4458;
+    padding: 50px 0 30px 0;
+    padding: 5vh 0 3vh 0;
+    color: #fff;
+}
+
+.contact-box {
+    background-color: #eeebeb;
+    color:#3f3b46;
+    background-image: url('../resources/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 5vh 15vw 5vh 15vw;
+}
+
+.contact-title {
+    text-align: center;
+}
+
+.contact-form-box {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 3vh 3vw 3vh 3vw;
+}
+
+.contact-form-box form {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.contact-input, #submit {
+    border: none;
+    min-height: 60px;
+    border-radius: 3px;
+    background-color: #a4a4c6;
+    font-family: 'Times New Roman', Times, serif;
+    color:#000;
+    font-size: 25px;
+    padding: 5px 10px 5px 10px;
+}
+
+#submit {
+    color:#fff;
+    width: 100px;
+}
+
+.contact-form-box label {
+    font-size: 2em;
+}
+
+.contact-form-box textarea {
+    height: 200px;
+}
+
+.name-data {
+    width: 100%;
+}
+
+.name-data input {
+    width: 250px;
+}
+
+.input-box input, .input-box textarea {
+    width: 100%;
+}
+
+.input-box {
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.aboutus {
+    padding: 15vh 12vw 18vh 12vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e2e5;
+    color:#3f3b46;
+    background-image: url('../resources/bg3.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: bottom;
+}
+
+.aboutus-text {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 5vh;
+}
+
+.join-us-button {
+    background-color: #d21717;
+    font-family: 'Josefin Sans', sans-serif;;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 4px;
+    color: #fff;
+    padding: 20px 30px 20px 30px;
+}
+
+.footer {
+    height: fit-content;
+    width: 100vw;
+    background-color: #2c2b2b;
+    padding: 5vh 10vw 5vh 10vw;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer-label {
+    font-size: 1.5em;
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-links ul {
+    padding: 3vw 0 3vw 0;
+    list-style: none;
+    display: flex;
+}
+
+.social-media-links li {
+    padding: 0 1vw 0 1vw;
+}
+
+.social-media-links img {
+    width: 30px;
+}
+
+.logo-campfire img {
+    width: 250px;
+}
+
+.company-info {
+    justify-content: space-between;
+}
+
+.info-box {
+    line-height: 30px;
+    width: 200px;
+}
+
+.info-box a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.our-crew-info {
+    background-color: #2c2b2b;
+    padding: 5vh 5vw 5vh 5vw;
+    color: #fff;
+}
+
+.crew-about-boxes {
+    margin-top: 6vh;
+    justify-content: space-around;
+    align-content: center;
+    grid-auto-flow: column;
+}
+
+.crew-about-box {
+    background-color: #555453;
+    min-height: 70vh;
+    height: fit-content;
+    padding: 4vh 2vw;
+    text-align: center;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+.crew-about-box p {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.crew-name {
+    font-weight: bold;
+}
+
+.lets-talk {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.lets-talk-button {
+    background-color: #d21717;
+    font-family: 'Josefin Sans', sans-serif;;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 4px;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+}
+
+.lets-talk-button:hover, .join-us-button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.review-section-box {
+    padding: 5vh 10vw;
+    background-color: #c7c7c7;
+    background-image: url('../resources/');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.review-boxes {
+    margin-top: 4vh;
+}
+
+.review-box {
+    margin: auto;
+    margin-bottom: 5vh;
+    width: 80vw;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5vh 3vw;
+    color: #fff;
+}
+
+.review-text {
+    font-size: 30px;
+    margin-top: 2vh;
+}
+
+.review-author {
+    font-size: 30px;
+    text-align: right;
+}
+
+.review-date {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.location-info {
+    padding: 5vh 5vw;
+    background-color: #444444;
+    color: #fff;
+    text-align: center;
+}
+
+.address-info {
+    margin-top: 2vh;
+    font-size: 30px;
+}
+
+.opening-hours {
+    margin: auto;
+    margin-top: 2vh;
+    font-size: 30px;
+}
+
+.opening-hours td {
+    width: 100px;
+    text-align: left;
+}
+
+.map-container {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 100px) {
+    .name-data, .company-info, .crew-about-boxes {
+        display: column;
+    }
+
+    .name-data div, .email-data div {
+        width: 100%;
+    }
+
+    .crew-about-box {
+        width: 60vw;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .logo-campfire {
+        display: none;
+    }
+
+    .info-box {
+        margin-bottom: 10vh;
+    }
+
+    .page-title {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .name-data, .company-info {
+        display: flex;
+    }
+
+    .name-data div {
+        width: 50%;
+    }
+
+    .email-data div {
+        width: auto;
+    }
+
+    .logo-campfire {
+        display: block;
+    }
+
+    .info-box {
+        margin-bottom: 0;
+    }
+
+    .page-title {
+        font-size: 5em;
+    }
+}
+
+@media only screen and (min-width: 1420px) {
+    .crew-about-boxes {
+        display: grid;
+    }
+
+    .crew-about-box {
+        width: 400px;
+        margin: 0;
+    }
+}
+
+.appear {
+    transition: all 0.8s;
+    opacity: 0;
+    transform: translateY(40px);
+}
+
+.appear.inview {
+    opacity: 1;
+    transform: none;
+    transition-delay: 0.3s;
+}
