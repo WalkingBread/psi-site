@@ -22,7 +22,6 @@ body {
 .main {
     background-image: url('../resources/girl.jpg');
     width: 100%;
-    width: 100vw;
     height: 100vh; 
     background-size: cover;
     background-repeat: no-repeat;
@@ -53,7 +52,7 @@ body {
 .course-info-container, .contact, 
 .aboutus, .contact-box, .our-crew-info, 
 .review-section-box, .location-info {
-    width: 100vw;
+    width: 100%;
     height: fit-content;
     min-height: 100vh;
     font-family: 'Josefin Sans', sans-serif;
